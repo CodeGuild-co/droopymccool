@@ -1,5 +1,5 @@
 .jumbotron {
-  background: #532F8C;
+  background: green;
   color: white;
   padding-bottom: 80px; }
   
@@ -17,11 +17,7 @@
     
   .navbar + .jumbotron {
     margin-top: -20px;}
-    
-  .navbar {
-    background: green;
-  }
-    
+  
   .jumbotron .lang-logo {
     display: block;
     background: #B01302;
