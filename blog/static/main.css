@@ -16,8 +16,11 @@
     margin: 1em auto 2em; }
     
   .navbar + .jumbotron {
-    margin-top: -20px;
-    background: green;}
+    margin-top: -20px;}
+    
+  .navbar {
+    background: green;
+  }
     
   .jumbotron .lang-logo {
     display: block;
