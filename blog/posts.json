@@ -1,0 +1,22 @@
+{
+     "firstPost":
+     {
+         "title": "Hello World! From Droopy McCool",
+         "post": [ "This is a blog post!",
+                   "We used a combination of GitHub and Heroku to get our blogs online",
+                   "First we created an account with GitHub and then Heroku",
+                   "We then set up a sub domain and linked it to GitHub and Heroku"
+         ]
+     },
+     "secondPost":
+     {
+         "title": "Why Villiers",
+         "post": [ "Why I’m Here",
+                   "I am hoping that this course will teach me how to methodically solve problems. I hope to become confident in new programming languages and I am excited about the visit to Bletchley Park."
+                   "Also this counts as a D of E residential.",
+                   "I look forward to:",
+                   "<ul><li>Learning more about unknown programming languages</li><li>The food</li></ul>"
+         
+         ]
+     }
+}
