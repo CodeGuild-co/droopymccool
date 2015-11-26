@@ -45,3 +45,7 @@
       color: #999999;
       text-decoration: none;
     }
+    
+    td {
+      padding: 20px
+    }
