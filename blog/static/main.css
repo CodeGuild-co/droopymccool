@@ -31,8 +31,7 @@
     .jumbotron .lang-logo img {
       max-width: 100%; }
       
-    a {
+    a + h3 {
       color: #999999;
       text-decoration: none;
-    }
     }
