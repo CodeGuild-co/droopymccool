@@ -24,7 +24,7 @@ def home():
 def posts(name):
     posts = getallposts()
     post  = posts[name]
-    return render_template('viewpost.html', title=post['title'], post=post['post'], date=post['date'], posts=posts.items())
+    return render_template('viewpost.html', title=post['title'], post=post['post'], posts=posts.items())
 
 if __name__ == '__main__':
     app.secret_key = getenv('SessionKey')
