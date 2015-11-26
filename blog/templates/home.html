@@ -7,9 +7,18 @@
             </div>
         </div>
         <div class="container">
-          {% for k, v in posts %}
-              <h3><a href="newposts/{{k}}/">{{ v['title']|title }}</a></h3>
-              <p>{{ v['post'][0]|safe }}</p>
-          {% endfor %}
+          <table>
+            <tr>
+              <td>   
+                {% for k, v in posts %}
+                  <h3><a href="newposts/{{k}}/">{{ v['title']|title }}</a></h3>
+                  <p>{{ v['post'][0]|safe }}</p>
+                {% endfor %}
+              </td>
+              <td>
+                 <img src="https://www.google.co.uk/search?q=droopy+mccool&client=firefox-a&rls=org.mozilla:en-GB:official&channel=fflb&biw=1366&bih=624&source=lnms&tbm=isch&sa=X&ved=0ahUKEwixsNmC2a7JAhVM1RQKHb0CA9gQ_AUIBigB#channel=fflb&tbm=isch&q=admiral+ackbar&imgrc=3YAIZPx4tzKfrM%3A"> 
+              </td>
+            </tr>
+          </table>
         </div>
 {% endblock %}
